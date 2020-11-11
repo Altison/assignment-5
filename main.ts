@@ -6,8 +6,8 @@ input.onButtonPressed(Button.A, function () {
             led.plot(x ** Math.max(3 - j, j) * i + 2, x ** j * i + 2)
             basic.pause(200)
         }
-        basic.pause(500)
     }
+    basic.pause(500)
     basic.clearScreen()
 })
 input.onButtonPressed(Button.B, function () {
@@ -22,7 +22,7 @@ input.onButtonPressed(Button.B, function () {
             }
             basic.pause(200)
         }
-        basic.pause(500)
     }
+    basic.pause(500)
     basic.clearScreen()
 })
